@@ -11,7 +11,7 @@
   function onSpeak(e){
     chute= e.results[0][0].transcript
     exibeChuteNaTela(chute)
-    verificaSeOChuteEvalido()
+    verificaSeOChuteEvalido(chute)
   }
 
   function exibeChuteNaTela(chute){
